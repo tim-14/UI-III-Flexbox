@@ -73,6 +73,7 @@ nav.container{
 }
 
 nav a{
+	margin-top: 10px;
 	width: 20%;
 	color: gray;
 
@@ -81,4 +82,36 @@ nav a{
 header img{
 	display:inline-block;
 	width: 18%;
+}
+
+.first-section{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.left-square{
+	width: 45%;
+	display: inline-block;
+}
+
+.left-square h1{
+	font-size: 85px;
+	text-align: center;
+}
+button{
+	margin-left: 220px;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 0;
+	display:inline-block;
+	width: 130px;
+	height: 35px;
+}
+
+img.tricky-pic{
+	display: inline-block;
+	width: 40%;
+	margin-right: 50px;
 }
