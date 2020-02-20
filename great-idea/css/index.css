@@ -159,3 +159,104 @@ footer p{
 .copyright{
 	text-align: center;
 }
+
+header{
+	display:flex;
+	background:palevioletred
+}
+header nav{
+	display: flex;
+	width: 80%;
+}
+
+nav a{
+	margin-top: 10px;
+	width: 20%;
+	color: white;
+	text-align: center;
+}
+
+header img{
+	display:inline-block;
+	width: 18%;
+}
+
+.services-header-img{
+	display: block;
+	width: 100%;
+	border: 2px solid white;
+}
+
+section.services{
+	display:flex;
+	flex-wrap: wrap;
+	font-size:20px;
+	justify-content: space-between;
+	background:palevioletred
+}
+
+span.heading{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	margin:20px 0;
+	background: palegoldenrod;
+	padding: 7px 0px;
+	border-radius: 15px;
+	border: 2px solid white;
+}
+
+section.services div{
+	width:30%;
+	text-align: center;
+	margin:20px 0;
+	background: paleturquoise;
+	padding: 7px 0px;
+	border-radius: 15px;
+	border: 2px solid white;
+}
+
+span.some-fax{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	margin:20px 0;
+	background: palegoldenrod;
+	margin: 7px 0px;
+	border-radius: 15px;
+	border: 2px solid white;
+	padding: 0 7px;
+}
+
+nav.thing-links{
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: palevioletred;
+	padding: 45px 0;
+}
+nav.thing-links a{
+	width: 22%;
+	background-color: palevioletred;
+}
+footer{
+	display: flex;
+	background:palevioletred;
+	align-items:center;
+	text-align: center;
+	justify-content: space-around;
+}
+
+footer.serv-footer img{
+	width: 45%;
+	border-radius: 50px;
+}
+
+footer.serv-footer p{
+	width: 45%;
+	color:white;
+}
+
+
+
