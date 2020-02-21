@@ -64,3 +64,199 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header{
+	display:flex;
+}
+nav.container{
+	display: flex;
+	width: 80%;
+}
+
+nav a{
+	margin-top: 10px;
+	width: 20%;
+	color: gray;
+	text-align: center;
+}
+
+header img{
+	display:inline-block;
+	width: 18%;
+}
+
+.first-section{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+
+.left-square{
+	width: 45%;
+	display: inline-block;
+}
+
+.left-square h1{
+	font-size: 85px;
+	text-align: center;
+}
+button{
+	margin-left: 220px;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 0;
+	display:inline-block;
+	width: 130px;
+	height: 35px;
+}
+
+img.tricky-pic{
+	display: inline-block;
+	width: 40%;
+	margin-right: 50px;
+}
+
+.border-top{
+	border-top: 1px solid black;
+	display:flex;
+	justify-content: space-around;
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+section.border-top div{
+	display:inline-block;
+	width: 40%;
+	margin: 15px 0;
+}
+
+.middle-img{
+	display:block;
+	width: 100%;
+}
+
+.border-bottom{
+	border-bottom: 1px solid black;
+	display:flex;
+	justify-content: space-around;
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+section.border-bottom div{
+	display:inline-block;
+	width: 30%;
+	margin: 20px 0;
+}
+
+footer{
+	font-size: 20px;
+}
+footer p{
+	margin-top:10px;
+}
+.copyright{
+	text-align: center;
+}
+
+header{
+	display:flex;
+	background:palevioletred
+}
+header nav{
+	display: flex;
+	width: 80%;
+}
+
+nav a{
+	margin-top: 10px;
+	width: 20%;
+	color: white;
+	text-align: center;
+}
+
+header img{
+	display:inline-block;
+	width: 18%;
+}
+
+.services-header-img{
+	display: block;
+	width: 100%;
+	border: 2px solid white;
+}
+
+section.services{
+	display:flex;
+	flex-wrap: wrap;
+	font-size:20px;
+	justify-content: space-between;
+	background:palevioletred
+}
+
+span.heading{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	margin:20px 0;
+	background: palegoldenrod;
+	padding: 7px 0px;
+	border-radius: 15px;
+	border: 2px solid white;
+}
+
+section.services div{
+	width:30%;
+	text-align: center;
+	margin:20px 0;
+	background: paleturquoise;
+	padding: 7px 0px;
+	border-radius: 15px;
+	border: 2px solid white;
+}
+
+span.some-fax{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	margin:20px 0;
+	background: palegoldenrod;
+	margin: 7px 0px;
+	border-radius: 15px;
+	border: 2px solid white;
+	padding: 0 7px;
+}
+
+nav.thing-links{
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: palevioletred;
+	padding: 45px 0;
+}
+nav.thing-links a{
+	width: 22%;
+	background-color: palevioletred;
+}
+footer{
+	display: flex;
+	background:palevioletred;
+	align-items:center;
+	text-align: center;
+	justify-content: space-around;
+}
+
+footer.serv-footer img{
+	width: 45%;
+	border-radius: 50px;
+}
+
+footer.serv-footer p{
+	width: 45%;
+	color:white;
+}
+
+
+
